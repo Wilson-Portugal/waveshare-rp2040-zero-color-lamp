@@ -1,7 +1,11 @@
 # color_pixels_waveshare_rp2040_zero.py
-# william martin - lisboa, portugal - 25 february 2023
+# wilson portugal - lisboa, portugal - 25 february 2023
 # 
-# This program I wrote for a waveshare rp2040
+# This program I wrote for a waveshare rp2040 zero
+# 
+# The colors do not really show up as true colors as  the color RGB lamp on the device
+# is limited. This is more proof of concept than a useful display. However, with more
+# refined hardware, the concept will still work.
 
 from neopixel_value import neo_pixel
 from color_values import get_color_value
